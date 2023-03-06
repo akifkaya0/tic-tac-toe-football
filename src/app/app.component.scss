@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 70%;
+    height: 70%;
+    position: relative;
+
+    .game-type{
+        position: absolute;
+        top: -100px;
+        opacity: 0.4;
+        z-index: -100;
+        font-size: 96px;
+    }
+
+    .game-mode-type{
+        font-size: 70px;
+    }
+
+}
+
+.header{
+    width: 100%;
+    color: #6E7F8D;
+    text-align: center;
+}

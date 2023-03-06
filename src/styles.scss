@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Campton;
+    src: url("assets/fonts/CamptonBold.otf") format("opentype");
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Campton";
+}
+
+body{
+    background-color: #E9EAEC;
+}
+
+.neumorphism-drop{
+    border-radius: 30px;
+    box-shadow: 28px 28px 50px rgba(13, 39, 80, 0.16),
+    -23px -23px 45px rgba(255, 255, 255);
+}
+
+.neumorphism-inner{
+    border-radius: 30px;
+    box-shadow: -31px -31px 43px rgba(255, 255, 255, 0.64),
+    26px 26px 48px rgba(13, 39, 80, 0.16);
+}
